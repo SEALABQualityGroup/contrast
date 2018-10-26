@@ -1,5 +1,17 @@
 ---
 title: "Projects"
 ---
-
-{% include _projects/*}
+<main>
+  {% for page in paginator.projects %}
+  <article>
+    <header>
+      <h1><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </header>
+{{ page.excerpt }}
+    {% unless page.excerpt == page.content %}
+    <footer><a class="ghost" href="{{ page.url | prepend: site.baseurl }}">{{ site.more }}</a></footer>
+    {% endunless %}
+  </article>
+{% endfor %}
+</main>
