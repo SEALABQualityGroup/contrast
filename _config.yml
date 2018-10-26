@@ -17,6 +17,9 @@ navigation:
   - tools.md
   - publications.md
   - people.md
+  
+collections:
+  - projects
 
 comments:
 #  disqus: "disqus-contrast"
