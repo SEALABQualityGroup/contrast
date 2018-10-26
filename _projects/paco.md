@@ -1,5 +1,6 @@
 ---
 title: Performability-Aware Computing: Logics, Models, and Languages
+agreement_num: prin2007
 type: MIUR PRIN
 status: finished
 people: Vittorio Cortellessa, Luca Berardinelli, Catia Trubiani
