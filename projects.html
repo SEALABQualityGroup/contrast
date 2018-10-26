@@ -2,4 +2,12 @@
 title: "Projects"
 layout: blank
 ---
-{% include projects/megamart.html %}
+{% for project in site.projects %}
+
+<div class="project">
+<strong>Title:</strong> {{ project.title }}
+<strong>Description:</strong>
+{{ project.content | markdownify }}
+</div>
+
+{% endfor %}
