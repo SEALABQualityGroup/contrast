@@ -1,12 +1,10 @@
 ---
-
-title: Performability-Aware Computing: Logics, Models, and Languages
-agreement_num: prin2007
-type: MIUR PRIN
-status: finished
-people: Vittorio Cortellessa, Luca Berardinelli, Catia Trubiani
-website: http://www.sti.uniurb.it/paco/
-
+title: "Performability-Aware Computing: Logics, Models, and Languages"
+agreement_num: "prin2007"
+type: "MIUR PRIN"
+status: "finished"
+people: "Vittorio Cortellessa, Luca Berardinelli, Catia Trubiani"
+website: "http://www.sti.uniurb.it/paco/"
 ---
 The project PaCo intends to contribute to the development and the integration of logics, models, and languages for the description and the analysis of performability-aware systems.
 On the one hand, we plan to study separately some of the performability-aware formalisms proposed in the literature, in order to establish new theoretical properties or to make them more expressive.
