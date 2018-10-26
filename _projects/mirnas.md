@@ -1,12 +1,10 @@
 ---
 Title: mirnAs' influence on cancer dEceaSe
-Agreement num: HP10CV8XPV
-Project type: ISCRA Class C Projects
-Project status: proposal under review
-People involved: Antinisca Di Marco
+agreement_num: HP10CV8XPV
+type: ISCRA Class C Projects
+status: proposal under review
+people: Antinisca Di Marco
 ---
-Description:
-
 Hepatocellular carcinoma (HCC) is a highly aggressive epithelial tumour originating both from mature hepatocytes and stem cells.
 Epidemiological studies reported HCC as the fifth most common cancer and the third most common cause of cancer death worldwide.MicroRNAs (miRNAs) are a class of small, non-coding RNAs that generated
 a great impact in the molecular biology field. They can negatively regulate the expression of their target genes in a post-transcriptionalmanner, inducing mRNA degradation or inhibiting mRNA translation.
