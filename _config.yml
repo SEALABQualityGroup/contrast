@@ -12,7 +12,7 @@ style:
   dark: false
 
 navigation:
-  - index.html
+  - home.md
   - projects.md
   - tools.md
   - people.md
