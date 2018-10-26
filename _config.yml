@@ -3,7 +3,6 @@ author: "SEALAB Quality Group"
 description: "description"
 more: "read more"
 url: "https://sealabqualitygroup.github.io/"
-baseurl: "/"
 paginate: 2
 permalink: pretty
 excerpt_separator: "\n\n\n" # two blank lines
