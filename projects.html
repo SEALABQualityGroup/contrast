@@ -5,16 +5,17 @@ layout: blank
 {% for project in site.projects %}
 
 <div class="project">
-  <h3>Title:</h3> {{ project.title }}
-  <h3>Agreement number:</h3> {{ project.agreement_num }}
-  <h3>Project type:</h3> {{ project.type }}
-  <h3>Project status:</h3> {{ project.status }}
-  <h3>People involved:</h3> {{ project.people }}
-  <h3>Website:</h3> {{ project.website }}
-  <strong>Description:</strong>
+  <div><strong>Title:</strong> {{ project.title }}</div>
+  <div><strong>Agreement number:</strong> {{ project.agreement_num }}</div>
+  <div><strong>Project type:</strong> {{ project.type }}</div>
+  <div><strong>Project status:</strong> {{ project.status }}</div>
+  <div><strong>People involved:</strong> {{ project.people }}</div>
+  <div><strong>Website:</strong> {{ project.website }}</div>
+  <div>
+    <strong>Description:</strong>
   
-  {{ project.content }}
-
+    {{ project.content }}
+  </div>
 </div>
 
 {% endfor %}
