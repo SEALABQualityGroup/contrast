@@ -1,5 +1,4 @@
 ---
 title: "Presto"
-layout: project
 ---
-This is presto.
+This is presto..
