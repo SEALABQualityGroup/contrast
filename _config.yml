@@ -13,8 +13,9 @@ style:
 
 navigation:
   - index.html
-  - archive.html
-  - about.md
+  - projects.md
+  - tools.md
+  - people.md
 
 comments:
 #  disqus: "disqus-contrast"
