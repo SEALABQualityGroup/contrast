@@ -1,0 +1,16 @@
+---
+title: "Tools"
+layout: default
+---
+{% for tool in site.tools %}
+
+<article class="project">
+  <div><strong>Name:</strong> {{ project.title }}</div>
+  <div>
+    <strong>Description:</strong>
+  
+    {{ project.content }}
+  </div>
+</article>
+
+{% endfor %}
