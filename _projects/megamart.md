@@ -1,5 +1,5 @@
 --- 
 title: "MegaM@rt2"
-layout: project
+layout: blank
 ---
 This is megamart.
