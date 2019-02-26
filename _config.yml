@@ -10,6 +10,10 @@ excerpt_separator: "\n\n\n" # two blank lines
 style:
   minimalist: false
   dark: false
+  
+include:
+  - preprints
+  - images
 
 navigation:
   - home.md
