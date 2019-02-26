@@ -21,6 +21,7 @@ navigation:
 collections:
   - projects
   - tools
+  - people
 
 comments:
 #  disqus: "disqus-contrast"
