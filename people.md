@@ -2,9 +2,12 @@
 title: "People"
 layout: default
 ---
+
+test
+
 {% for member in site.people %}
 
-<article class="project">
+<article class="people">
   <div><strong>First name:</strong> {{ member.first_name }}</div>
   <div><strong>Family name:</strong> {{ member.family_name }}</div>
   <div><strong>E-Mail:</strong> {{ member.email }}</div>
