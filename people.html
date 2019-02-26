@@ -6,13 +6,14 @@ layout: default
 {% for member in site.people %}
 
 <article class="people">
-  <div class="photo">
-    <img src="{{ member.photo }}" alt="member photo profile" />  
+  <div class="photo-container">
+    <img class="photo" src="{{ member.photo }}" alt="member photo profile" />  
   <div>
   <div><strong>First name:</strong> {{ member.first_name }}</div>
   <div><strong>Family name:</strong> {{ member.family_name }}</div>
   <div><strong>E-Mail:</strong> {{ member.email }}</div>
   <div><strong>Website:</strong> {{ member.web }}</div>
+    <div class="clear">&bnsp;</div>
   <div><strong> Social links </strong>
      <div><strong>dblp:</strong> {{ member.dblp }}</div>
      <div><strong>orcid:</strong> {{ member.orcid }}</div>
