@@ -9,8 +9,8 @@ layout: default
   <div><strong>DOI:</strong> {{ pub.doi }}</div>
   <div><strong>Status:</strong> {{ pub.status }}</div>
   <div><strong>Author:</strong> {{ pub.author }}</div>
-  {% if pub.citation and post.paperurl %}
-    <div><strong>URL:</strong> <a href="{{ post.paperurl }}"> <br /> <u>[get pdf]</u></a> </div>
+  {% if pub.link %}
+    <div><strong>URL:</strong> <a href="{{ pub.link }}"> <br /> <u>[get pdf]</u></a> </div>
   {% if pub.bibtex %}<a href="{{ pub.bibtex }}"><u>[get bibtex]</u></a> {% endif %} </p>
   {% endif %}
   <!--div>
