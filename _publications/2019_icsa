@@ -1,3 +1,11 @@
+--- 
+title: "Exploiting Architecture/Runtime Model-Driven Traceability for Performance Improvement"
+doi: 10.1109/ICSA.2019.00017 
+url: https://doi.org/10.1109/ICSA.2019.00017
+status: printed
+author: Davide Arcelli, Vittorio Cortellessa, Daniele Di Pompeo, Romina Eramo, Michele Tucci
+---
+## Abstract 
 Model-Driven Engineering techniques may achieve a major support to the software development when they allow to manage relationships between a running system and its architectural model. These relationships can be exploited for different goals, such as the software evolution due to new functional requirements. In this paper, we define and use relationships that work as support to the performance improvement of a running system. In particular, we combine: (i) a bidirectional model transformation framework tailored to define relationships between performance monitoring data and an architectural model, with (ii) a technique for detecting performance antipatterns and for suggesting architectural changes, aimed at removing performance problems identified on the basis of runtime information. The result is an integrated approach that exploits traceability relationships between the monitoring data and the architectural model to derive recommended refactoring solutions for the system performance improvement. The approach has been applied to an e-commerce application based on microservices that has been designed by means of UML software models profiled with MARTE.
 
 
