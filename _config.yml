@@ -14,7 +14,7 @@ style:
 include:
   - preprints
   - images
-  - bibtex
+  - _bibtex
 
 navigation:
   - home.md
